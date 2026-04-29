@@ -45,7 +45,7 @@ form.addEventListener("submit", (event) => {
     `Nachricht: ${data.get("message") || "-"}`,
   ].join("\n");
 
-  window.location.href = `mailto:kontakt@loc-in.de?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  window.location.href = `mailto:np@loc-in.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   const name = data.get("name") || "Vielen Dank";
   formNote.textContent = `${name}, Ihre E-Mail-Anfrage wurde vorbereitet. LOC-IN meldet sich mit den naechsten Schritten.`;
   form.reset();
