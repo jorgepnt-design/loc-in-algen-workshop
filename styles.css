@@ -50,15 +50,18 @@ a {
 .brand {
   display: inline-flex;
   align-items: center;
-  width: 224px;
-  height: 52px;
+  justify-content: center;
+  width: 240px;
+  height: 58px;
 }
 
 .brand img {
   display: block;
   width: 100%;
-  height: auto;
-  padding: 7px 10px;
+  height: 100%;
+  padding: 8px 12px;
+  object-fit: contain;
+  box-sizing: border-box;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.9);
 }
