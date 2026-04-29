@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 118" role="img" aria-labelledby="title">
+  <title id="title">LOC-IN</title>
+  <g fill="none" stroke="#bfd6d4" stroke-width="4" stroke-linecap="round">
+    <path d="M94 58 44 36" />
+    <path d="M94 58 45 82" />
+    <path d="M94 58 92 108" />
+    <path d="M94 58 142 30" />
+    <path d="M94 58 150 72" />
+  </g>
+  <g fill="#bfd6d4">
+    <circle cx="94" cy="58" r="24" />
+    <circle cx="40" cy="34" r="11" />
+    <circle cx="34" cy="86" r="12" />
+    <circle cx="91" cy="109" r="12" />
+    <circle cx="148" cy="28" r="11" />
+    <circle cx="154" cy="73" r="10" />
+  </g>
+  <g fill="#5b6676">
+    <path d="M199 29h8v61h39v8h-47z" />
+    <path d="M303 99c-21 0-38-16-38-36s17-36 38-36 38 16 38 36-17 36-38 36zm0-8c16 0 29-12 29-28s-13-28-29-28-29 12-29 28 13 28 29 28z" />
+    <path d="M395 99c-22 0-39-16-39-36s17-36 39-36c12 0 22 4 29 12l-6 6c-6-6-14-9-23-9-17 0-30 12-30 27s13 28 30 28c9 0 17-3 23-9l6 6c-7 7-17 11-29 11z" />
+    <path d="M440 62h38v8h-38z" />
+    <path d="M495 29h8v69h-8z" />
+  </g>
+</svg>

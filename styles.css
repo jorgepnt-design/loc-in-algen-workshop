@@ -50,19 +50,17 @@ a {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  font-weight: 800;
-  letter-spacing: 0;
+  width: 174px;
+  height: 42px;
 }
 
-.brand-mark {
-  display: grid;
-  width: 38px;
-  height: 38px;
-  place-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+.brand img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 7px 10px;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.13);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .main-nav {
