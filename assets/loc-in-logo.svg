@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 118" role="img" aria-labelledby="title">
+  <title id="title">LOC-IN</title>
+  <g fill="none" stroke="#cbd1c8" stroke-width="4" stroke-linecap="round">
+    <path d="M94 58 44 36" />
+    <path d="M94 58 45 82" />
+    <path d="M94 58 92 108" />
+    <path d="M94 58 142 30" />
+    <path d="M94 58 150 72" />
+  </g>
+  <g fill="#cbd1c8">
+    <circle cx="94" cy="58" r="24" />
+    <circle cx="40" cy="34" r="11" />
+    <circle cx="34" cy="86" r="12" />
+    <circle cx="91" cy="109" r="12" />
+    <circle cx="148" cy="28" r="11" />
+    <circle cx="154" cy="73" r="10" />
+  </g>
+  <text
+    x="190"
+    y="60"
+    fill="#d7ded0"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="72"
+    font-weight="400"
+    letter-spacing="10"
+    dominant-baseline="middle"
+  >LOC-IN</text>
+</svg>

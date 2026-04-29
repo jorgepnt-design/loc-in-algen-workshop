@@ -425,9 +425,10 @@ textarea {
   color: rgba(255, 255, 255, 0.78);
 }
 
-.site-footer span {
-  color: var(--white);
-  font-weight: 800;
+.site-footer img {
+  display: block;
+  width: 156px;
+  height: auto;
 }
 
 @media (max-width: 960px) {
