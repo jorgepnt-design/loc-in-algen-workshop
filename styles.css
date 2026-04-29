@@ -339,7 +339,8 @@ section {
   align-items: stretch;
 }
 
-.date-box {
+.date-box,
+.venue-box {
   display: inline-flex;
   flex-direction: column;
   gap: 4px;
@@ -349,12 +350,18 @@ section {
   background: var(--sage);
 }
 
-.date-box span {
+.venue-box {
+  font-style: normal;
+}
+
+.date-box span,
+.venue-box span {
   color: var(--muted);
   font-weight: 700;
 }
 
-.date-box strong {
+.date-box strong,
+.venue-box strong {
   font-size: 1.35rem;
 }
 
