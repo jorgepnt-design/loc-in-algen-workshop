@@ -234,7 +234,12 @@ section {
   margin-bottom: 36px;
 }
 
-.speaker-list,
+.speaker-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
 .price-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
