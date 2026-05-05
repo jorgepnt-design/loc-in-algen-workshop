@@ -199,6 +199,10 @@ section {
   font-size: 1.08rem;
 }
 
+.booking-copy h2 {
+  margin-bottom: 20px;
+}
+
 .outcomes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
