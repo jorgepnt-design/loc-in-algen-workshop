@@ -34,8 +34,8 @@ form.addEventListener("submit", (event) => {
   const body = [
     "Hallo LOC-IN,",
     "",
-    "ich moechte den Workshop am 8. Juni 2026 von 10:00 bis 15:00 Uhr buchen.",
-    "Veranstaltungsort: TIZ Darmstadt GmbH, Robert-Bosch-Strasse 7, D-64293 Darmstadt",
+    "ich möchte den Workshop am 8. Juni 2026 von 10:00 bis 15:00 Uhr buchen.",
+    "Veranstaltungsort: TIZ Darmstadt GmbH, Robert-Bosch-Straße 7, D-64293 Darmstadt",
     "",
     `Name: ${data.get("name")}`,
     `Organisation: ${data.get("organisation")}`,
@@ -48,7 +48,7 @@ form.addEventListener("submit", (event) => {
 
   window.location.href = `mailto:np@loc-in.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   const name = data.get("name") || "Vielen Dank";
-  formNote.textContent = `${name}, Ihre E-Mail-Anfrage wurde vorbereitet. LOC-IN meldet sich mit den naechsten Schritten.`;
+  formNote.textContent = `${name}, Ihre E-Mail-Anfrage wurde vorbereitet. LOC-IN meldet sich mit den nächsten Schritten.`;
   form.reset();
   setTicket("student");
 });
