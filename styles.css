@@ -478,6 +478,31 @@ section {
   text-underline-offset: 3px;
 }
 
+.legal-content {
+  display: grid;
+  gap: 22px;
+  max-width: 980px;
+}
+
+.legal-content > div {
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+}
+
+.legal-content p {
+  margin: 10px 0 0;
+  color: var(--muted);
+}
+
+.legal-content a {
+  color: var(--green-dark);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .booking-form {
   display: grid;
   gap: 16px;
@@ -559,6 +584,13 @@ textarea {
 .footer-brand span {
   color: rgba(255, 255, 255, 0.78);
   font-weight: 700;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 960px) {
