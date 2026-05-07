@@ -334,6 +334,12 @@ section {
   background: var(--sage);
 }
 
+.speaker h3 a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+
 .speaker blockquote {
   margin: 18px 0 0;
   padding-left: 16px;
